@@ -1,9 +1,0 @@
-A = df_weather.loc[:,'icon']
-B = df_weather.loc[:,'fog']
-C = df_weather.loc[:,'snow']
-D = df_weather.loc[:,'hail']
-E = df_weather.loc[:,'thunder']
-F = df_weather.loc[:,'date']
-G = df_weather.loc[:,'precipi']
-frame1 = [A,B,C,D,E,F,G]
-df = pd.concat(frame1,axis=1)
